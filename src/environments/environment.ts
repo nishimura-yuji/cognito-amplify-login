@@ -2,9 +2,8 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
-};
+// tslint:disable-next-line:max-line-length
+export const environment = { production: false, amplify: { Auth: { identityPoolId: 'ap-northeast-1:', region: 'ap-northeast-1', userPoolId: 'ap-northeast-', userPoolWebClientId: '' } } };
 
 /*
  * In development mode, to ignore zone related error stack frames such as
